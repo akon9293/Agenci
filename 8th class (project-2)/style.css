@@ -1,0 +1,277 @@
+:root {
+  --button-color--: #4CAF4F;
+  --backrgound--: #F5F7FA;
+}
+
+/*Css reset start*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  /* margin */
+}
+
+/*common class start*/
+.container {
+  max-width: 1440px;
+  margin: auto;
+
+}
+
+.flax {
+  display: flex;
+
+}
+
+
+
+/*common class end*/
+
+/*navber start*/
+
+nav {
+  padding: 22px 122px;
+  background-color: var(--backrgound--);
+}
+
+.navManu {
+  margin: auto;
+}
+
+.navManu ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navButton .green {
+  margin-left: 15px;
+  color: rgb(0, 0, 0);
+  background-color: var(--button-color--);
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+/*navber end*/
+/*hero section start*/
+
+
+#heroSection {
+  background-repeat: no-repeat;
+  background-position: 1260px 100px;
+  padding: 50px;
+  background-color: var(--backrgound--);
+}
+
+.heroTitle {
+  margin: 144px;
+  max-width: 657px;
+  max-height: 276px;
+}
+
+.heroPare h1 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 76px;
+}
+
+.h {
+  color: var(--button-color--);
+}
+
+.heroPare p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.buttonRegister {
+  max-width: 118px;
+  margin-top: 32px;
+  padding: 32px 14px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: var(--button-color--);
+  text-align: center;
+  line-height: 0;
+}
+
+.buttonRegister a {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+
+.circal {
+  margin: auto;
+  display: flex;
+  gap: 1px;
+  margin-left: 840px;
+}
+
+.s {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  margin: 5px;
+  border-radius: 100%;
+  max-width: 10px;
+  max-height: 10px;
+  align-items: center;
+}
+
+/*hero section end*/
+/*clients section Start*/
+.clients {
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.clients h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.clients p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.logoImage {
+  display: flex;
+  gap: 136px;
+  padding-top: 25px;
+  justify-content: center;
+}
+
+/*clients section end*/
+/*Manage section start*/
+
+
+.Manage {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Manage h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.Manage {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.Manage1 {
+  margin-top: 16px;
+  display: flex;
+}
+
+.Membership {
+  max-width: 299px;
+  max-height: 260px;
+  text-align: center;
+  padding: 10px 144px 10px 128px;
+}
+
+.Membership img {
+  margin: auto;
+}
+
+.National {
+  max-width: 299px;
+  max-height: 260px;
+  text-align: center;
+  padding: 10px 144px 10px 128px;
+}
+
+.National img {
+  margin: auto;
+}
+
+.Clubs {
+  max-width: 299px;
+  max-height: 260px;
+  text-align: center;
+  padding: 10px 144px 10px 128px;
+}
+
+.Clubs img {
+  margin: auto;
+}
+
+
+/*Manage section end*/
+/*Manage section end*/
+#unseen {
+  background-repeat: no-repeat;
+  background-position: 100px 100px;
+  padding: 165px;
+  margin-top: 44px;
+}
+
+/*Manage section end*/
